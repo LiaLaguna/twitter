@@ -20,7 +20,12 @@ nav > p { /* Texto Twitter en barra nav */
   font-size: 30px;
   margin-top: 8px;
 }
+.profile .link{
+  color:  #6ad2f3;
+  margin: 20px;
+  padding-top: 20px;
 
+}
 .profile, .textarea{ /* Estilos para div profile y textarea */
   display: inline-block;
   width: 42.5%;
@@ -29,7 +34,16 @@ nav > p { /* Texto Twitter en barra nav */
   margin-top: 90px;
   margin-left: 5%;
 }
-
+.textarea button{
+  background-color: #6ad2f3;
+  color: #fff;
+}
+.imprimir{
+  background-color: transparent;
+  margin-left: 70px;
+  width: 90%;
+  height: 70px;
+}
 .profile > h3,
 .profile > p { /* Ajustando márgenes de h3 y p */
   margin-left: 20px;
