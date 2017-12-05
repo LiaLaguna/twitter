@@ -22,12 +22,13 @@
     <div class="textarea">
       <form class="formulario">
         <textarea name="ta" rows="6" id="tweet" onkeydown="textCounter(this.form.ta,this.form.countDisplay);" onkeyup="textCounter(this.form.ta,this.form.countDisplay);"></textarea>
-          <input readonly type="text" name="countDisplay" size="3" maxlength="3" value="140" id="message" >
+          <input readonly type="text" name="countDisplay" size="3" maxlength="3" value="140" id="message">
         <button class="button" type="submit" onclick="showMessage(); return false;">Tweet</button>
       </form>
     </div>
 
     <p><span id="display" ></span></p>
+
 
     <script type="text/javascript" src="js/app.js"></script>
 
