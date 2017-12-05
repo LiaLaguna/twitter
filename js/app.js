@@ -2,6 +2,8 @@
 var maxAmount = 140;
 var tweet = document.getElementById('tweet');
 var characters = tweet.value.length;
+button.disabled = false;
+
 function textCounter(textField, showCountField) {
   if (textField.value.length > maxAmount){
     textField.value = textField.value.substring(0, maxAmount);
@@ -20,7 +22,7 @@ function textCounter(textField, showCountField) {
 
 }
 
-/* Imprimiendo tweet */
+/* Imprimiendo tweet*/
 function showMessage() {
   var message = document.getElementById('tweet').value;
   document.getElementById('display').innerHTML = message;
