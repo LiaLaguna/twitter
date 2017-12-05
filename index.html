@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <title>Twitter</title>
     <link rel="stylesheet" href="css/main.css">
+      <link rel="icon" href="assets/images/logo.icon">
   </head>
   <body>
 
@@ -15,12 +16,20 @@
       <h3>RETO DE CÓDIGO</h3>
       <p>Hola,</p>
       <p>Soy front end developer jr</p>
+        <p class="link">CÓDIGO</p>
     </div>
 
     <div class="textarea">
-      <textarea name="name" rows="8" cols="80"></textarea>
-
+        <textarea name="ta" rows="6" id="tweet"> </textarea>
+          <input readonly type="text" name="countDisplay" size="3" maxlength="3" value="140" id="message">
+        <button id="asd" class="button"   onclick="showMessage()">Tweet</button>
     </div>
+    
+      <div id="nuevoParrafo"></div>  
+
+    <p><span id="display" ></span></p>
+
+    <script type="text/javascript" src="js/app.js"></script>
 
   </body>
 </html>

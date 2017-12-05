@@ -3,7 +3,7 @@ body {
   padding: 0;
   background-image:url("http://www.twitrcovers.com/wp-content/uploads/2012/09/Bike.jpg");
   background-repeat: no-repeat;
-  background-size: 1280px 700px;
+  background-size: 100% 700px;
   font-family: sans-serif;
 }
 
@@ -11,26 +11,68 @@ nav {
   background-color: #6ad2f3;
   width: 100%;
   height:53px;
-  position: absolute;
 }
 
 nav > p { /* Texto Twitter en barra nav */
   text-align: center;
   color: white;
   font-size: 30px;
-  margin-top: 8px;
+  margin-top: 0px;
+}
+
+.profile .link{
+  color:  #6ad2f3;
+  margin: 20px;
+  padding-top: 20px;
 }
 
 .profile, .textarea{ /* Estilos para div profile y textarea */
-  display: inline-block;
+  float: left;
   width: 42.5%;
   height: 200px;
   background-color: white;
-  margin-top: 90px;
+  border-radius: 5px;
+  margin-top: 60px;
   margin-left: 5%;
+}
+
+.textarea > form > textarea { /* Estilo para botón Tweet */
+  width: 94%;
+  height: 140px;
+  border-radius: 5px;
+  border: 1px solid #6ad2f3;
+  margin-left: 10px;
+  margin-top: 10px;
+  font-size: 15px;
+}
+
+.textarea > form > button { /* Estilo para botón Tweet */
+  background-color: #6ad2f3;
+  color: #fff;
+  font-size: 15px;
+  margin-left: 10px;
+  margin-top: 7px;
+}
+
+#contador { /* Estilo para el contador de caracteres */
+  float: right;
+  margin-right: 10px;
+  margin-top: 7px;
+
+}
+
+#nuevoParrafo {
+  background-color: white;
+  margin-left: 70px;;
+  margin-top: 300px;
+  width: 40%;
+  clear: right;    
 }
 
 .profile > h3,
 .profile > p { /* Ajustando márgenes de h3 y p */
   margin-left: 20px;
 }
+
+
+
